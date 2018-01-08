@@ -1,0 +1,1284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1406389162581606}
+  m_IsPrefabParent: 1
+--- !u!1 &1086739087241774
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4222666563394456}
+  - component: {fileID: 33328635484812524}
+  - component: {fileID: 65555747622307938}
+  - component: {fileID: 23903531199532292}
+  - component: {fileID: 114524420589740328}
+  m_Layer: 0
+  m_Name: Cube_2B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1252273820307626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4192949829482250}
+  - component: {fileID: 114335746916237134}
+  m_Layer: 0
+  m_Name: Parent_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1263794050613994
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4112782362127626}
+  - component: {fileID: 33426414412487134}
+  - component: {fileID: 65413927426072304}
+  - component: {fileID: 23824121197508598}
+  - component: {fileID: 114024320145131106}
+  m_Layer: 0
+  m_Name: Cube_2C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1285743474524508
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4372502904497946}
+  - component: {fileID: 33967681095807502}
+  - component: {fileID: 65486790786376826}
+  - component: {fileID: 23840404460256124}
+  - component: {fileID: 114387834446922490}
+  m_Layer: 0
+  m_Name: Cube_C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1406389162581606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4563954670618348}
+  - component: {fileID: 23376040109917322}
+  - component: {fileID: 114389829158095062}
+  m_Layer: 0
+  m_Name: GrandParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1457848745675232
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4728614884706810}
+  - component: {fileID: 33687726556116706}
+  - component: {fileID: 65864065258838094}
+  - component: {fileID: 23101375734604834}
+  - component: {fileID: 114045830494654114}
+  m_Layer: 0
+  m_Name: Cube_2A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1644848925353338
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4495921226414408}
+  - component: {fileID: 33676334711542940}
+  - component: {fileID: 65646558579723792}
+  - component: {fileID: 23388563805339264}
+  - component: {fileID: 114776404129960332}
+  m_Layer: 0
+  m_Name: Cube_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1874441581098414
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4320899265671782}
+  - component: {fileID: 33340752043657550}
+  - component: {fileID: 65033791047299732}
+  - component: {fileID: 23688104454783378}
+  - component: {fileID: 114789900211038510}
+  m_Layer: 0
+  m_Name: Cube_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1945483766683442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4090373398666728}
+  - component: {fileID: 114405887449558780}
+  m_Layer: 0
+  m_Name: Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4090373398666728
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1945483766683442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4495921226414408}
+  - {fileID: 4320899265671782}
+  - {fileID: 4372502904497946}
+  m_Father: {fileID: 4563954670618348}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4112782362127626
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263794050613994}
+  m_LocalRotation: {x: -0.0014359355, y: -0, z: -0.000829041, w: 0.9999986}
+  m_LocalPosition: {x: -0.26126295, y: -0.23695993, z: 1.8125205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4192949829482250}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4192949829482250
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252273820307626}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.049999997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4728614884706810}
+  - {fileID: 4222666563394456}
+  - {fileID: 4112782362127626}
+  m_Father: {fileID: 4563954670618348}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4222666563394456
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086739087241774}
+  m_LocalRotation: {x: -0.0014359355, y: -0, z: -0.000829041, w: 0.9999986}
+  m_LocalPosition: {x: 0.68354595, y: -0.17, z: -0.82393694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4192949829482250}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4320899265671782
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874441581098414}
+  m_LocalRotation: {x: -0.0014359355, y: -0, z: -0.000829041, w: 0.9999986}
+  m_LocalPosition: {x: 0.68354595, y: -0.17, z: -0.82393694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4090373398666728}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4372502904497946
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285743474524508}
+  m_LocalRotation: {x: -0.0014359355, y: -0, z: -0.000829041, w: 0.9999986}
+  m_LocalPosition: {x: -0.26126295, y: -0.23695993, z: 1.8125205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4090373398666728}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4495921226414408
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644848925353338}
+  m_LocalRotation: {x: -0.0014359355, y: -0, z: -0.000829041, w: 0.9999986}
+  m_LocalPosition: {x: 1.9726962, y: 1.14, z: 0.9631897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4090373398666728}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4563954670618348
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406389162581606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4090373398666728}
+  - {fileID: 4192949829482250}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4728614884706810
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457848745675232}
+  m_LocalRotation: {x: -0.0014359355, y: -0, z: -0.000829041, w: 0.9999986}
+  m_LocalPosition: {x: 1.9726962, y: 1.14, z: 0.9631897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4192949829482250}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23101375734604834
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457848745675232}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23376040109917322
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406389162581606}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23388563805339264
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644848925353338}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23688104454783378
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874441581098414}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23824121197508598
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263794050613994}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23840404460256124
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285743474524508}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23903531199532292
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086739087241774}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33328635484812524
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086739087241774}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33340752043657550
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874441581098414}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33426414412487134
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263794050613994}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33676334711542940
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644848925353338}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33687726556116706
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457848745675232}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33967681095807502
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285743474524508}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65033791047299732
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874441581098414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65413927426072304
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263794050613994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -1.04, y: 0, z: 0}
+--- !u!65 &65486790786376826
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285743474524508}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -1.04, y: 0, z: 0}
+--- !u!65 &65555747622307938
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086739087241774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65646558579723792
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644848925353338}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65864065258838094
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457848745675232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114024320145131106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263794050613994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 23824121197508598}
+  childPublicComponent: {fileID: 23824121197508598}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 23824121197508598}
+  childPrivateComponent: {fileID: 23824121197508598}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray:
+  - {fileID: 23824121197508598}
+  childPublicComponentsArray:
+  - {fileID: 23824121197508598}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray:
+  - {fileID: 23824121197508598}
+  childPrivateComponentsArray:
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList:
+  - {fileID: 23824121197508598}
+  childPublicComponentsList:
+  - {fileID: 23824121197508598}
+  parentPublicComponentsList: []
+  myPrivateComponentsList:
+  - {fileID: 23824121197508598}
+  childPrivateComponentsList:
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive:
+  - {fileID: 23824121197508598}
+  childPublicComponentsArrayInactive:
+  - {fileID: 23824121197508598}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23824121197508598}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive:
+  - {fileID: 23824121197508598}
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23824121197508598}
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive:
+  - {fileID: 23824121197508598}
+  childPublicComponentsListInactive:
+  - {fileID: 23824121197508598}
+  parentPublicComponentsListInactive:
+  - {fileID: 23824121197508598}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive:
+  - {fileID: 23824121197508598}
+  childPrivateComponentsListInactive:
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23824121197508598}
+  - {fileID: 23376040109917322}
+--- !u!114 &114045830494654114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1457848745675232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 23101375734604834}
+  childPublicComponent: {fileID: 23101375734604834}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 23101375734604834}
+  childPrivateComponent: {fileID: 23101375734604834}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray:
+  - {fileID: 23101375734604834}
+  childPublicComponentsArray:
+  - {fileID: 23101375734604834}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray:
+  - {fileID: 23101375734604834}
+  childPrivateComponentsArray:
+  - {fileID: 23101375734604834}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList:
+  - {fileID: 23101375734604834}
+  childPublicComponentsList:
+  - {fileID: 23101375734604834}
+  parentPublicComponentsList: []
+  myPrivateComponentsList:
+  - {fileID: 23101375734604834}
+  childPrivateComponentsList:
+  - {fileID: 23101375734604834}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive:
+  - {fileID: 23101375734604834}
+  childPublicComponentsArrayInactive:
+  - {fileID: 23101375734604834}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23101375734604834}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive:
+  - {fileID: 23101375734604834}
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23101375734604834}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23101375734604834}
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive:
+  - {fileID: 23101375734604834}
+  childPublicComponentsListInactive:
+  - {fileID: 23101375734604834}
+  parentPublicComponentsListInactive:
+  - {fileID: 23101375734604834}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive:
+  - {fileID: 23101375734604834}
+  childPrivateComponentsListInactive:
+  - {fileID: 23101375734604834}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23101375734604834}
+  - {fileID: 23376040109917322}
+--- !u!114 &114335746916237134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252273820307626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 0}
+  childPublicComponent: {fileID: 23101375734604834}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 0}
+  childPrivateComponent: {fileID: 23101375734604834}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray: []
+  childPublicComponentsArray:
+  - {fileID: 23101375734604834}
+  - {fileID: 23824121197508598}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray: []
+  childPrivateComponentsArray:
+  - {fileID: 23101375734604834}
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList: []
+  childPublicComponentsList:
+  - {fileID: 23101375734604834}
+  - {fileID: 23824121197508598}
+  parentPublicComponentsList: []
+  myPrivateComponentsList: []
+  childPrivateComponentsList:
+  - {fileID: 23101375734604834}
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive: []
+  childPublicComponentsArrayInactive:
+  - {fileID: 23101375734604834}
+  - {fileID: 23903531199532292}
+  - {fileID: 23824121197508598}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive: []
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23101375734604834}
+  - {fileID: 23903531199532292}
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive: []
+  childPublicComponentsListInactive:
+  - {fileID: 23101375734604834}
+  - {fileID: 23903531199532292}
+  - {fileID: 23824121197508598}
+  parentPublicComponentsListInactive:
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive: []
+  childPrivateComponentsListInactive:
+  - {fileID: 23101375734604834}
+  - {fileID: 23903531199532292}
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23376040109917322}
+--- !u!114 &114387834446922490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285743474524508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 23840404460256124}
+  childPublicComponent: {fileID: 23840404460256124}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 23840404460256124}
+  childPrivateComponent: {fileID: 23840404460256124}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray:
+  - {fileID: 23840404460256124}
+  childPublicComponentsArray:
+  - {fileID: 23840404460256124}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray:
+  - {fileID: 23840404460256124}
+  childPrivateComponentsArray:
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList:
+  - {fileID: 23840404460256124}
+  childPublicComponentsList:
+  - {fileID: 23840404460256124}
+  parentPublicComponentsList: []
+  myPrivateComponentsList:
+  - {fileID: 23840404460256124}
+  childPrivateComponentsList:
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive:
+  - {fileID: 23840404460256124}
+  childPublicComponentsArrayInactive:
+  - {fileID: 23840404460256124}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23840404460256124}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive:
+  - {fileID: 23840404460256124}
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23840404460256124}
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive:
+  - {fileID: 23840404460256124}
+  childPublicComponentsListInactive:
+  - {fileID: 23840404460256124}
+  parentPublicComponentsListInactive:
+  - {fileID: 23840404460256124}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive:
+  - {fileID: 23840404460256124}
+  childPrivateComponentsListInactive:
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23840404460256124}
+  - {fileID: 23376040109917322}
+--- !u!114 &114389829158095062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406389162581606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 23376040109917322}
+  childPublicComponent: {fileID: 23376040109917322}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 23376040109917322}
+  childPrivateComponent: {fileID: 23376040109917322}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray:
+  - {fileID: 23376040109917322}
+  childPublicComponentsArray:
+  - {fileID: 23376040109917322}
+  - {fileID: 23388563805339264}
+  - {fileID: 23840404460256124}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray:
+  - {fileID: 23376040109917322}
+  childPrivateComponentsArray:
+  - {fileID: 23376040109917322}
+  - {fileID: 23388563805339264}
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList:
+  - {fileID: 23376040109917322}
+  childPublicComponentsList:
+  - {fileID: 23376040109917322}
+  - {fileID: 23388563805339264}
+  - {fileID: 23840404460256124}
+  parentPublicComponentsList: []
+  myPrivateComponentsList:
+  - {fileID: 23376040109917322}
+  childPrivateComponentsList:
+  - {fileID: 23376040109917322}
+  - {fileID: 23388563805339264}
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  childPublicComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  - {fileID: 23388563805339264}
+  - {fileID: 23688104454783378}
+  - {fileID: 23840404460256124}
+  - {fileID: 23101375734604834}
+  - {fileID: 23903531199532292}
+  - {fileID: 23824121197508598}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  - {fileID: 23388563805339264}
+  - {fileID: 23688104454783378}
+  - {fileID: 23840404460256124}
+  - {fileID: 23101375734604834}
+  - {fileID: 23903531199532292}
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive:
+  - {fileID: 23376040109917322}
+  childPublicComponentsListInactive:
+  - {fileID: 23376040109917322}
+  - {fileID: 23388563805339264}
+  - {fileID: 23688104454783378}
+  - {fileID: 23840404460256124}
+  - {fileID: 23101375734604834}
+  - {fileID: 23903531199532292}
+  - {fileID: 23824121197508598}
+  parentPublicComponentsListInactive:
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive:
+  - {fileID: 23376040109917322}
+  childPrivateComponentsListInactive:
+  - {fileID: 23376040109917322}
+  - {fileID: 23388563805339264}
+  - {fileID: 23688104454783378}
+  - {fileID: 23840404460256124}
+  - {fileID: 23101375734604834}
+  - {fileID: 23903531199532292}
+  - {fileID: 23824121197508598}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23376040109917322}
+--- !u!114 &114405887449558780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1945483766683442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 0}
+  childPublicComponent: {fileID: 23388563805339264}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 0}
+  childPrivateComponent: {fileID: 23388563805339264}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray: []
+  childPublicComponentsArray:
+  - {fileID: 23388563805339264}
+  - {fileID: 23840404460256124}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray: []
+  childPrivateComponentsArray:
+  - {fileID: 23388563805339264}
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList: []
+  childPublicComponentsList:
+  - {fileID: 23388563805339264}
+  - {fileID: 23840404460256124}
+  parentPublicComponentsList: []
+  myPrivateComponentsList: []
+  childPrivateComponentsList:
+  - {fileID: 23388563805339264}
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive: []
+  childPublicComponentsArrayInactive:
+  - {fileID: 23388563805339264}
+  - {fileID: 23688104454783378}
+  - {fileID: 23840404460256124}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive: []
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23388563805339264}
+  - {fileID: 23688104454783378}
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive: []
+  childPublicComponentsListInactive:
+  - {fileID: 23388563805339264}
+  - {fileID: 23688104454783378}
+  - {fileID: 23840404460256124}
+  parentPublicComponentsListInactive:
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive: []
+  childPrivateComponentsListInactive:
+  - {fileID: 23388563805339264}
+  - {fileID: 23688104454783378}
+  - {fileID: 23840404460256124}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23376040109917322}
+--- !u!114 &114524420589740328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1086739087241774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 23903531199532292}
+  childPublicComponent: {fileID: 23903531199532292}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 23903531199532292}
+  childPrivateComponent: {fileID: 23903531199532292}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray:
+  - {fileID: 23903531199532292}
+  childPublicComponentsArray:
+  - {fileID: 23903531199532292}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray:
+  - {fileID: 23903531199532292}
+  childPrivateComponentsArray:
+  - {fileID: 23903531199532292}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList:
+  - {fileID: 23903531199532292}
+  childPublicComponentsList:
+  - {fileID: 23903531199532292}
+  parentPublicComponentsList: []
+  myPrivateComponentsList:
+  - {fileID: 23903531199532292}
+  childPrivateComponentsList:
+  - {fileID: 23903531199532292}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive:
+  - {fileID: 23903531199532292}
+  childPublicComponentsArrayInactive:
+  - {fileID: 23903531199532292}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23903531199532292}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive:
+  - {fileID: 23903531199532292}
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23903531199532292}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23903531199532292}
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive:
+  - {fileID: 23903531199532292}
+  childPublicComponentsListInactive:
+  - {fileID: 23903531199532292}
+  parentPublicComponentsListInactive:
+  - {fileID: 23903531199532292}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive:
+  - {fileID: 23903531199532292}
+  childPrivateComponentsListInactive:
+  - {fileID: 23903531199532292}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23903531199532292}
+  - {fileID: 23376040109917322}
+--- !u!114 &114776404129960332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644848925353338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 23388563805339264}
+  childPublicComponent: {fileID: 23388563805339264}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 23388563805339264}
+  childPrivateComponent: {fileID: 23388563805339264}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray:
+  - {fileID: 23388563805339264}
+  childPublicComponentsArray:
+  - {fileID: 23388563805339264}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray:
+  - {fileID: 23388563805339264}
+  childPrivateComponentsArray:
+  - {fileID: 23388563805339264}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList:
+  - {fileID: 23388563805339264}
+  childPublicComponentsList:
+  - {fileID: 23388563805339264}
+  parentPublicComponentsList: []
+  myPrivateComponentsList:
+  - {fileID: 23388563805339264}
+  childPrivateComponentsList:
+  - {fileID: 23388563805339264}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive:
+  - {fileID: 23388563805339264}
+  childPublicComponentsArrayInactive:
+  - {fileID: 23388563805339264}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23388563805339264}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive:
+  - {fileID: 23388563805339264}
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23388563805339264}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23388563805339264}
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive:
+  - {fileID: 23388563805339264}
+  childPublicComponentsListInactive:
+  - {fileID: 23388563805339264}
+  parentPublicComponentsListInactive:
+  - {fileID: 23388563805339264}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive:
+  - {fileID: 23388563805339264}
+  childPrivateComponentsListInactive:
+  - {fileID: 23388563805339264}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23388563805339264}
+  - {fileID: 23376040109917322}
+--- !u!114 &114789900211038510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874441581098414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c463c7b6b54da4284e230ff43ed6b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  someOtherClassArray: []
+  someOtherClassList: []
+  myPublicComponent: {fileID: 23688104454783378}
+  childPublicComponent: {fileID: 23688104454783378}
+  parentPublicComponent: {fileID: 0}
+  myPrivateComponent: {fileID: 23688104454783378}
+  childPrivateComponent: {fileID: 23688104454783378}
+  parentPrivateComponent: {fileID: 0}
+  myPublicComponentsArray:
+  - {fileID: 23688104454783378}
+  childPublicComponentsArray:
+  - {fileID: 23688104454783378}
+  parentPublicComponentsArray: []
+  myPrivateComponentsArray:
+  - {fileID: 23688104454783378}
+  childPrivateComponentsArray:
+  - {fileID: 23688104454783378}
+  parentPrivateComponentsArray: []
+  myPublicComponentsList:
+  - {fileID: 23688104454783378}
+  childPublicComponentsList:
+  - {fileID: 23688104454783378}
+  parentPublicComponentsList: []
+  myPrivateComponentsList:
+  - {fileID: 23688104454783378}
+  childPrivateComponentsList:
+  - {fileID: 23688104454783378}
+  parentPrivateComponentsList: []
+  myPublicComponentsArrayInactive:
+  - {fileID: 23688104454783378}
+  childPublicComponentsArrayInactive:
+  - {fileID: 23688104454783378}
+  parentPublicComponentsArrayInactive:
+  - {fileID: 23688104454783378}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsArrayInactive:
+  - {fileID: 23688104454783378}
+  childPrivateComponentsArrayInactive:
+  - {fileID: 23688104454783378}
+  parentPrivateComponentsArrayInactive:
+  - {fileID: 23688104454783378}
+  - {fileID: 23376040109917322}
+  myPublicComponentsListInactive:
+  - {fileID: 23688104454783378}
+  childPublicComponentsListInactive:
+  - {fileID: 23688104454783378}
+  parentPublicComponentsListInactive:
+  - {fileID: 23688104454783378}
+  - {fileID: 23376040109917322}
+  myPrivateComponentsListInactive:
+  - {fileID: 23688104454783378}
+  childPrivateComponentsListInactive:
+  - {fileID: 23688104454783378}
+  parentPrivateComponentsListInactive:
+  - {fileID: 23688104454783378}
+  - {fileID: 23376040109917322}
