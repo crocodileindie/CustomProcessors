@@ -1,9 +1,10 @@
-﻿using NUnit.Framework;
+﻿
 using RTG.CustomProcessors.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace RTG.CustomProcessors
 {
@@ -135,7 +136,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		abstract class InternalProcessor
+		private abstract class InternalProcessor
 		{
 			protected FieldInfo _fieldInfo;
 
@@ -156,7 +157,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class ArraySelf : InternalProcessor
+		private class ArraySelf : InternalProcessor
 		{
 			private static MethodInfo baseMethodInfo;
 			private readonly MethodInfo _genericMethodInfo;
@@ -174,7 +175,7 @@ namespace RTG.CustomProcessors
 							break;
 						}
 					}
-					Assert.NotNull(baseMethodInfo);
+					Assert.IsNotNull(baseMethodInfo);
 				}
 				//generate method info for T = ElementType
 				_genericMethodInfo = baseMethodInfo.MakeGenericMethod(ElementType());
@@ -186,7 +187,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class ArrayChildren : InternalProcessor
+		private class ArrayChildren : InternalProcessor
 		{
 			private static MethodInfo baseMethodInfo;
 			private readonly MethodInfo _genericMethodInfo;
@@ -200,14 +201,14 @@ namespace RTG.CustomProcessors
 					foreach (var methodInfo in typeof(Component).GetMethods())
 					{
 						if (methodInfo.Name == "GetComponentsInChildren" && methodInfo.ContainsGenericParameters &&
-						    methodInfo.GetParameters().Length == 1 &&
-						    methodInfo.GetParameters()[0].ParameterType == typeof(bool))
+							methodInfo.GetParameters().Length == 1 &&
+							methodInfo.GetParameters()[0].ParameterType == typeof(bool))
 						{
 							baseMethodInfo = methodInfo;
 							break;
 						}
 					}
-					Assert.NotNull(baseMethodInfo);
+					Assert.IsNotNull(baseMethodInfo);
 				}
 				//generate method info for T = ElementType
 				_genericMethodInfo = baseMethodInfo.MakeGenericMethod(ElementType());
@@ -224,7 +225,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class ArrayParent : InternalProcessor
+		private class ArrayParent : InternalProcessor
 		{
 			private static MethodInfo baseMethodInfo;
 			private readonly MethodInfo _genericMethodInfo;
@@ -239,13 +240,13 @@ namespace RTG.CustomProcessors
 					foreach (var methodInfo in typeof(Component).GetMethods())
 					{
 						if (methodInfo.Name == "GetComponentsInParent" &&
-						    methodInfo.ContainsGenericParameters && methodInfo.GetParameters().Length == 1)
+							methodInfo.ContainsGenericParameters && methodInfo.GetParameters().Length == 1)
 						{
 							baseMethodInfo = methodInfo;
 							break;
 						}
 					}
-					Assert.NotNull(baseMethodInfo);
+					Assert.IsNotNull(baseMethodInfo);
 				}
 				//generate method info for T = ElementType
 				_genericMethodInfo = baseMethodInfo.MakeGenericMethod(ElementType());
@@ -261,7 +262,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class ListSelf : InternalProcessor
+		private class ListSelf : InternalProcessor
 		{
 			private static MethodInfo baseMethodInfo;
 			private readonly MethodInfo _genericMethodInfo;
@@ -280,7 +281,7 @@ namespace RTG.CustomProcessors
 							break;
 						}
 					}
-					Assert.NotNull(baseMethodInfo);
+					Assert.IsNotNull(baseMethodInfo);
 				}
 				//generate method info for T = ElementType
 				_genericMethodInfo = baseMethodInfo.MakeGenericMethod(ElementType());
@@ -297,7 +298,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class ListChildren : InternalProcessor
+		private class ListChildren : InternalProcessor
 		{
 			private static MethodInfo baseMethodInfo;
 			private readonly MethodInfo _genericMethodInfo;
@@ -311,14 +312,14 @@ namespace RTG.CustomProcessors
 					foreach (var methodInfo in typeof(Component).GetMethods())
 					{
 						if (methodInfo.Name == "GetComponentsInChildren" && methodInfo.ContainsGenericParameters &&
-						    methodInfo.GetParameters().Length == 2 &&
-						    methodInfo.GetParameters()[0].ParameterType == typeof(bool))
+							methodInfo.GetParameters().Length == 2 &&
+							methodInfo.GetParameters()[0].ParameterType == typeof(bool))
 						{
 							baseMethodInfo = methodInfo;
 							break;
 						}
 					}
-					Assert.NotNull(baseMethodInfo);
+					Assert.IsNotNull(baseMethodInfo);
 				}
 				//generate method info for T = ElementType
 				_genericMethodInfo = baseMethodInfo.MakeGenericMethod(ElementType());
@@ -339,7 +340,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class ListParent : InternalProcessor
+		private class ListParent : InternalProcessor
 		{
 			private static MethodInfo baseMethodInfo;
 			private readonly MethodInfo _genericMethodInfo;
@@ -353,14 +354,14 @@ namespace RTG.CustomProcessors
 					foreach (var methodInfo in typeof(Component).GetMethods())
 					{
 						if (methodInfo.Name == "GetComponentsInParent" && methodInfo.ContainsGenericParameters &&
-						    methodInfo.GetParameters().Length == 2 &&
-						    methodInfo.GetParameters()[0].ParameterType == typeof(bool))
+							methodInfo.GetParameters().Length == 2 &&
+							methodInfo.GetParameters()[0].ParameterType == typeof(bool))
 						{
 							baseMethodInfo = methodInfo;
 							break;
 						}
 					}
-					Assert.NotNull(baseMethodInfo);
+					Assert.IsNotNull(baseMethodInfo);
 				}
 				//generate method info for T = ElementType
 				_genericMethodInfo = baseMethodInfo.MakeGenericMethod(ElementType());
@@ -381,7 +382,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class FieldSelf : InternalProcessor
+		private class FieldSelf : InternalProcessor
 		{
 			public FieldSelf(FieldInfo fieldInfo, UnityEngine.PropertyAttribute attribute) : base(fieldInfo, attribute)
 			{
@@ -393,7 +394,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class FieldChildren : InternalProcessor
+		private class FieldChildren : InternalProcessor
 		{
 			private bool _includeInactive;
 
@@ -410,7 +411,7 @@ namespace RTG.CustomProcessors
 			}
 		}
 
-		class FieldParent : InternalProcessor
+		private class FieldParent : InternalProcessor
 		{
 			public FieldParent(FieldInfo fieldInfo, UnityEngine.PropertyAttribute attribute) : base(fieldInfo, attribute)
 			{
@@ -423,5 +424,4 @@ namespace RTG.CustomProcessors
 			}
 		}
 	}
-
 }

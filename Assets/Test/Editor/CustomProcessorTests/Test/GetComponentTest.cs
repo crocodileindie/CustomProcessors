@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.TestTools;
+using Assert = UnityEngine.Assertions.Assert;
 
 namespace RTG.Test
 {
@@ -13,7 +14,7 @@ namespace RTG.Test
 	{
 		public void Setup()
 		{
-			EditorSceneManager.OpenScene("assets/RTG/Test/test.unity");
+			EditorSceneManager.OpenScene("assets/Test/Editor/CustomProcessorTests/test.unity");
 			var grandParent = GameObject.Find("GrandParent");
 			Assert.IsTrue(grandParent != null);
 			foreach (var t in grandParent.GetComponentsInChildren<ProcessorTestComponent>())
@@ -157,7 +158,7 @@ namespace RTG.Test
 	}
 	public class GetComponentPrefabTest : IPrebuildSetup
 	{
-		private const string PrefabPath = "Assets/RTG/Test/GrandParent.prefab";
+		private const string PrefabPath = "Assets/Test/Editor/CustomProcessorTests/GrandParent.prefab";
 		private GameObject prefab;
 		public void Setup()
 		{
@@ -312,7 +313,7 @@ namespace RTG.Test
 			if (result == null)
 				Assert.IsNull(test.myPublicComponent);
 			else
-				Assert.AreSame(result, test.myPublicComponent);
+				Assert.AreEqual(result, test.myPublicComponent);
 		}
 
 		public static void TestMyChildPublicComponent(GameObject obj)
@@ -324,7 +325,7 @@ namespace RTG.Test
 			if (result == null)
 				Assert.IsNull(test.childPublicComponent);
 			else
-				Assert.AreSame(result, test.childPublicComponent);
+				Assert.AreEqual(result, test.childPublicComponent);
 		}
 
 		public static void TestMyParentPublicComponent(GameObject obj)
@@ -336,7 +337,7 @@ namespace RTG.Test
 			if (result == null)
 				Assert.IsNull(test.parentPublicComponent);
 			else
-				Assert.AreSame(result, test.parentPublicComponent);
+				Assert.AreEqual(result, test.parentPublicComponent);
 		}
 
 		public static void TestMyPrivateComponent(GameObject obj)
@@ -350,7 +351,7 @@ namespace RTG.Test
 			if (result == null)
 				Assert.IsNull(prop.objectReferenceValue);
 			else
-				Assert.AreSame(result, prop.objectReferenceValue);
+				Assert.AreEqual(result, prop.objectReferenceValue);
 		}
 
 		public static void TestMyChildPrivateComponent(GameObject obj)
@@ -364,7 +365,7 @@ namespace RTG.Test
 			if (result == null)
 				Assert.IsNull(prop.objectReferenceValue);
 			else
-				Assert.AreSame(result, prop.objectReferenceValue);
+				Assert.AreEqual(result, prop.objectReferenceValue);
 		}
 
 		public static void TestMyParentPrivateComponent(GameObject obj)
@@ -377,7 +378,7 @@ namespace RTG.Test
 			var result = test.GetComponentInParent<Renderer>();
 			if (result == null)
 				Assert.IsNull(prop.objectReferenceValue);
-			Assert.AreSame(result, prop.objectReferenceValue);
+			Assert.AreEqual(result, prop.objectReferenceValue);
 		}
 
 		public static void TestMyPublicComponentsArray(GameObject obj)
@@ -405,8 +406,8 @@ namespace RTG.Test
 				Assert.IsTrue(lis.Count == list.Length);
 				for (var index = 0; index < list.Length; index++)
 				{
-					Assert.AreSame(list[index], arr[index]);
-					Assert.AreSame(list[index], lis[index]);
+					Assert.AreEqual(list[index], arr[index]);
+					Assert.AreEqual(list[index], lis[index]);
 				}
 			}
 		}
@@ -432,8 +433,8 @@ namespace RTG.Test
 				Assert.IsTrue(lis.Count == list.Length);
 				for (var index = 0; index < list.Length; index++)
 				{
-					Assert.AreSame(list[index], arr[index]);
-					Assert.AreSame(list[index], lis[index]);
+					Assert.AreEqual(list[index], arr[index]);
+					Assert.AreEqual(list[index], lis[index]);
 				}
 			}
 		}
@@ -459,8 +460,8 @@ namespace RTG.Test
 				Assert.IsTrue(lis.Count == list.Length);
 				for (var index = 0; index < list.Length; index++)
 				{
-					Assert.AreSame(list[index], arr[index]);
-					Assert.AreSame(list[index], lis[index]);
+					Assert.AreEqual(list[index], arr[index]);
+					Assert.AreEqual(list[index], lis[index]);
 				}
 			}
 		}
@@ -489,8 +490,8 @@ namespace RTG.Test
 				Assert.IsTrue(propList.arraySize == list.Length);
 				for (var index = 0; index < list.Length; index++)
 				{
-					Assert.AreSame(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
-					Assert.AreSame(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
+					Assert.AreEqual(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
+					Assert.AreEqual(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
 				}
 			}
 
@@ -521,8 +522,8 @@ namespace RTG.Test
 				Assert.IsTrue(propList.arraySize == list.Length);
 				for (var index = 0; index < list.Length; index++)
 				{
-					Assert.AreSame(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
-					Assert.AreSame(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
+					Assert.AreEqual(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
+					Assert.AreEqual(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
 				}
 			}
 		}
@@ -551,8 +552,8 @@ namespace RTG.Test
 				Assert.IsTrue(propList.arraySize == list.Length);
 				for (var index = 0; index < list.Length; index++)
 				{
-					Assert.AreSame(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
-					Assert.AreSame(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
+					Assert.AreEqual(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
+					Assert.AreEqual(list[index], propArray.GetArrayElementAtIndex(index).objectReferenceValue);
 				}
 			}
 		}
